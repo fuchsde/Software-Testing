@@ -1,4 +1,8 @@
+#include <iostream>
+using std::cout;
+
 int main (int argc, char *argv[]) 
 { 
-  printf("Hello World");
+  cout << "Hello World";
+  return 0;
 } 
