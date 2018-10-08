@@ -2,6 +2,7 @@
 #include "function.h"
 using std::cout;
 
+// Doing some unit testing
 int main (int argc, char *argv[]) 
 {
   int result = 0;
