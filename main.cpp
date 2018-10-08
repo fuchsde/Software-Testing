@@ -4,11 +4,13 @@ using std::cout;
 
 int main (int argc, char *argv[]) 
 { 
-  cout << "Hello World\n";
-  cout << "Getting it done\n";
+  int result = Multiply(Add(3,4), Add(1,6));
+  cout << "Result: " << result << "\n";
   
-  int result = Multiply(2, 3);
-  cout << "Result: " << result;
-  
+  if(result == 49)
+  {
+    cout << "Success");
+  }
+    
   return 0;
 } 
