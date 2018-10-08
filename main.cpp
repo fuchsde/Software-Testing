@@ -1,5 +1,5 @@
 #include <iostream>
-#include <function.h>
+#include <function>
 using std::cout;
 
 int main (int argc, char *argv[]) 
