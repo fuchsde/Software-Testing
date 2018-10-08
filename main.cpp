@@ -1,5 +1,6 @@
 #include <iostream>
-#include "function.h"
+#include "functionMultiply.h"
+#include "functionAdd.h"
 using std::cout;
 
 int main (int argc, char *argv[]) 
