@@ -6,6 +6,7 @@ using std::cout;
 int main (int argc, char *argv[]) 
 {
   int result = 0;
+  int fail = 0;
     for(int i = 0; i < 10; i++)
     {
       for(int j = 0; j < 10; j++)
@@ -14,8 +15,12 @@ int main (int argc, char *argv[])
           cout << "i: " << i << " * j: " << j << " = " << result << "\n"; 
           if(result != i*j)
           {
-            cout << "Testing multiply failed\n";
+            fail = 1;
           }
       }
     }
+  if(fail == 1)
+  {
+    cout << "Succes";
+  }
 } 
