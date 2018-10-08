@@ -10,7 +10,7 @@ int main (int argc, char *argv[])
   
   if(result == 49)
   {
-    cout << "Success");
+    cout << "Success";
   }
     
   return 0;
