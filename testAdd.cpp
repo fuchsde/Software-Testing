@@ -11,7 +11,7 @@ int main (int argc, char *argv[])
       for(int j = 0; j < 10; j++)
       {
           result = Add(i, j);
-          cout << "i: " << i << " + j: " << j " = " << result; 
+          cout << "i: " << i << " + j: " << j << " = " << result; 
           if(result != i*j)
           {
             cout << "Testing add failed";
