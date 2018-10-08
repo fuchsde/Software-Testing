@@ -1,5 +1,5 @@
 #include <iostream>
-#include "function.h"
+#include "functionMultiply.h"
 using std::cout;
 
 // Doing some unit testing
