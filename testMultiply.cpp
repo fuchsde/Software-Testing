@@ -19,7 +19,7 @@ int main (int argc, char *argv[])
           }
       }
     }
-  if(fail == 1)
+  if(fail == 0)
   {
     cout << "Succes";
   }
