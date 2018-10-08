@@ -1,5 +1,5 @@
 #include <iostream>
-#include "function.h"
+#include "functionAdd.h"
 using std::cout;
 
 // Doing some unit testing
