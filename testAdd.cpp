@@ -22,5 +22,5 @@ int main (int argc, char *argv[])
   if(fail == 0)
   {
     cout << "Success";
-}
+  }
 } 
